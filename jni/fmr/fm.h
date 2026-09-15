@@ -131,6 +131,7 @@ struct fm_tune_parm {
     uint8_t space;
     uint8_t hilo;
     uint16_t freq;
+    uint16_t reserved;
 };
 
 struct fm_seek_parm {
